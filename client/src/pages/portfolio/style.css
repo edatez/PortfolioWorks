@@ -1,0 +1,10 @@
+.row {
+    margin-top: 5rem
+}
+.col-md-4 {
+    padding: 1rem
+  
+}
+.col-md-4 :hover {
+    background-color:rgb(243, 200, 10)
+}

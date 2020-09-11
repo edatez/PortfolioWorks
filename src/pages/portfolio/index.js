@@ -72,8 +72,8 @@ class Portfolio extends Component{
           <Row>
           {projects.map((element) => {
           return (
-            <Col md={4}>
-            <Card style={{ width: "18rem" }}>
+            <Col md={3}>
+            <Card style={{ width: "12rem" }}>
               <Card.Img variant="top" src={element.image} 
 //               myClickHandler = (params) => {
 //               console.log("Click!!!");

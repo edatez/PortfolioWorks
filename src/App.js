@@ -1,18 +1,33 @@
-import React, { Component } from "react";
-import logo from "./logo.svg";
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import "./App.css";
 import Portfolio from "./pages/portfolio" ;
+import About from "./pages/about" ;
+
 import Top from "./components/navbar";
 import Footer from "./components/footer";
 
 
+
 function App() {
   return (
+    <Router>
     <div className="App">
         <Top />
-        <Portfolio />
+        <Switch>
+        <Route exact path={"/"}>
+            <About />
+          </Route>
+          <Route exact path={"/about"}>
+            <About />
+          </Route>
+        <Route exact path={"/portfolio"}>
+            <Portfolio />
+          </Route>
+          </Switch>
         <Footer/>
     </div>
+    </Router>
   );
 }
 

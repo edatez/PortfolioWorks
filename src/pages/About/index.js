@@ -11,14 +11,14 @@ function About() {
         <div className="box">
           <h1>About Me</h1>
           <Row>
-            <Col lg={6}>
-              <img
-                src={require("")}
+          <Col md={4}>
+              {/* <img
+                src={require("../../images/Eda.jpg")}
                 alt="Eda Tezcanli"
-                class="img-fluid rounded float-left"
-              ></img>
+                className="img-fluid rounded float-left"
+              ></img> */}
             </Col>
-            <Col lg={6}>
+            <Col md={4}>
               <p>
                 Hello, my name is Eda. I am a full stack web developer with an
                 extensive background in user experience and design. Recent

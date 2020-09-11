@@ -20,18 +20,18 @@ function About() {
             </Col>
             <Col md={6}>
               <p>
-                Hello, my name is Eda. I am a full stack web developer with an
+                Hello, my name is Eda. Full stack web developer with an
                 extensive background in user experience and design. Holds a
-                Bachelor's degree in Industrial Engineering as well as a
-                Master's degree in Industrial Design. I have experience in
+                Bachelor's degree in Industrial Engineering and a
+                Master's degree in Industrial Design. Experienced in
                 instructing and working as a designer with cross-functional
                 teams.
               </p>
               <br></br>
               <p>
-                I have a firm understanding of HTML, CSS, and JavaScript with
+                Have a firm understanding of HTML, CSS, and JavaScript with
                 many deployed applications on my{" "}
-                <a href="https://github.com/edatez">GitHub account</a>. I am now
+                <a href="https://github.com/edatez">GitHub account</a>. Now
                 skilled in HTML, CSS, Javascript, MongoDb, and React. I applied
                 aspects of UX and agile development in a recent project
                 developed an app called “Med Handoff” that helps to standardize

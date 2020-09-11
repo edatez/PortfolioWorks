@@ -5,7 +5,7 @@ import React from "react";
 function Footer() {
     return(
         <footer>
-            &copy; Eda Tezcanli Tuncer
+            &copy; 2020 Eda Tezcanli Tuncer
 {/* 
             ReactDOM.render(<SocialIcon url="https://www.linkedin.com/in/eda-tezcanli-tuncer/" />, document.body); */}
 

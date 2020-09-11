@@ -11,14 +11,12 @@ function About() {
         <div className="box">
           <h1>About Me</h1>
           <Row>
-          <Col md={4}>
-              {/* <img
-                src={require("../../images/Eda.jpg")}
+          <Col md={3}>
+              <img src="../../images/Eda.jpg"
                 alt="Eda Tezcanli"
-                className="img-fluid rounded float-left"
-              ></img> */}
+                className="img-fluid rounded float-left"></img>
             </Col>
-            <Col md={4}>
+            <Col md={6}>
               <p>
                 Hello, my name is Eda. I am a full stack web developer with an
                 extensive background in user experience and design. Recent
@@ -28,7 +26,7 @@ function About() {
                 Industrial Design. I have experience in instructing and working
                 as a designer with cross-functional teams.
               </p>
-
+              <br></br>
               <p>
                 I have a firm understanding of HTML, CSS, and JavaScript with
                 many deployed applications on my{" "}

@@ -23,7 +23,6 @@ deployed_url: "https://reward-application.herokuapp.com/"
   github_link:"https://github.com/chrisjm093/med-handoff", 
   deployed_url: "https://uwproject2bootcamp.herokuapp.com/"
 },
-
 {
 name:"CookWhatYouHave",
 description: "Have you ever stared into the abyss of your fridge wondering what you can make with just apples, flour, and milk?",
@@ -40,14 +39,14 @@ deployed_url: "https://gentle-cove-07462.herokuapp.com/"
 },
 {
 name:"Scheduler Application",
-description: "A simple calendar application that allows the user to save events for each hour of the workday day from 9AM to 5PM.",
+description: "A simple calendar application that allows the user to save events for each hour of the workday from 9AM to 5PM.",
 image: "../images/Scheduler.png",
 github_link:"https://github.com/edatez/Scheduler", 
 deployed_url: "https://edatez.github.io/Scheduler/"
 },
 {
 name:"Fitness Tracker",
-description: "Simplest and most intuitive workout tracker",
+description: "Simplest and most intuitive workout tracker.",
 image: "../images/FitnessTracker.png",
 github_link:"https://github.com/edatez/fitness_tracker", 
 deployed_url: "https://ancient-wildwood-50690.herokuapp.com/"
@@ -63,7 +62,6 @@ deployed_url: "https://secret-hollows-21666.herokuapp.com/"
 
 class Portfolio extends Component{
   state= {projects}
-
 
   render () {
     return (

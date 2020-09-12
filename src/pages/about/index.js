@@ -20,8 +20,7 @@ function About() {
             </Col>
             <Col md={6}>
               <p>
-                Hello, my name is Eda. Full stack web developer with an
-                extensive background in user experience and design. Holds a
+                Hello, my name is Eda. Full stack web developer with a background in user experience and design. Hold a
                 Bachelor's degree in Industrial Engineering and a
                 Master's degree in Industrial Design. Experienced in
                 instructing and working as a designer with cross-functional

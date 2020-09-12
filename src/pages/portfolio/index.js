@@ -7,7 +7,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-
 const projects = [
 {
 name:"Earn It!",
@@ -58,6 +57,13 @@ image: "../images/BurgersApp.png",
 github_link:"https://github.com/edatez/Burger", 
 deployed_url: "https://secret-hollows-21666.herokuapp.com/"
 },
+{
+  name:"Weather Dashboard",
+  description: "This is a simple application to get the current wether and 5 day forecast.",
+  image: "../images/weather_app.png",
+  github_link:"https://github.com/edatez/Weather_App", 
+  deployed_url: "https://edatez.github.io/Weather_App/"
+  },
 ];
 
 class Portfolio extends Component{
@@ -65,35 +71,34 @@ class Portfolio extends Component{
 
   render () {
     return (
+      
       <>
         <Container>
           <Row>
           {projects.map((element) => {
           return (
-            <Col md={3}>
+            <Col md={4} lg={3}>
             <Card style={{ width: "12rem" }}>
               <Card.Img variant="top" src={element.image} 
-//               myClickHandler = (params) => {
-//               console.log("Click!!!");
-//               });
 
-//           render() {
-//           return (
-//           <EventCard myOnClick={()=> this.myClickHandler("any parameters")} />
-//     );
-// }
                />
               <Card.Body>
+             
                 <Card.Title>{element.name}</Card.Title>
                 <Card.Text>{element.description}</Card.Text>
-                
+                 <p class="link">        
+                <a href={element.github_link} target="_blank">github </a>
+                <br></br>
+                <a href={element.deployed_url} target="_blank">deployed </a>
+                </p>
               </Card.Body>
             </Card>
             </Col>
             );
         })};
           </Row>    
-        </Container>      
+        </Container>    
+        
       </>
     );
   };

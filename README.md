@@ -1,6 +1,6 @@
 # PortfolioWorks
 
-[Deployed at Heroku](https://aqueous-escarpment-33610.herokuapp.com/)
+[Deployed at Heroku](https://portfolio-works-eda.herokuapp.com/)
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/edatez/portfolio-works)
 

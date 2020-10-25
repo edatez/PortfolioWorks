@@ -42,6 +42,16 @@ function About() {
                 and experiences on the web.
               </p>
             </Col>
+            <Col md={6}>
+                    <div className="box">
+                        <h3>My Info</h3>
+                        <ul>
+                            <li><a href="https://github.com/edatez">GitHub</a></li>
+                            <li><a href="https://www.linkedin.com/in/eda-tezcanli-tuncer/">LinkedIn</a></li>
+                            <li>Email me at <a href="mailto:edatezcanli@gmail.com">edatezcanli@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </Col>
           </Row>
         </div>
       </Row>

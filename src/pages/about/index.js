@@ -28,11 +28,10 @@ function About() {
               </p>
               <br></br>
               <p>
-                Have a firm understanding of HTML, CSS, and JavaScript with
+                Have a firm understanding of HTML, CSS, and JavaScript and React with
                 many deployed applications on my{" "}
-                <a href="https://github.com/edatez">GitHub account</a>. Now
-                skilled in HTML, CSS, Javascript, MongoDb, and React. I applied
-                aspects of UX and agile development in a recent project
+                <a href="https://github.com/edatez">GitHub account</a>. 
+                I applied aspects of UX and agile development in a recent project
                 developed an app called “Med Handoff” that helps to standardize
                 patient care by mitigating the gap in communication between
                 health practitioners and their supervisors so that patient care
